@@ -1,0 +1,5 @@
+Name= input("Enter your name: ")
+Surname = input("Enter your surname: ")
+Name=Name.lower()
+Surname=Surname.lower()
+print(f"Username : {Name[:3]}_{Surname[-3:]}")

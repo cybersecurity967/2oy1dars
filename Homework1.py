@@ -1,0 +1,5 @@
+name =input("Enter your name: ")
+surname = input("Enter your surname: ")
+name= name.title()
+surname = surname.title()
+print(f"To'liq ism: {name} {surname}" )
